@@ -24,7 +24,7 @@ const puppeteer = require('puppeteer');
     await page.waitForSelector(startSelector);
 
   // Type into search box.
-  await page.type('.vector-search-box-input', 'Leonardo');
+  await page.type('.vector-search-box-input', 'jamaica');
 
   // Wait for the results page to load and display the results.
   // dont works fine
